@@ -1,0 +1,26 @@
+{
+    "guid": "8339fb904eb04ed48cfbd2a08bbb731f",
+    "name": "CoreLib.Localization",
+    "skipSafetyChecks": false,
+    "disableScripts": false,
+    "accessesExtraAssemblies": true,
+    "disableHarmonyPatching": false,
+    "requiredOn": 0,
+    "files": [
+        {
+            "path": "Scripts/Scripts/Patches/TextManager_Patch.cs"
+        },
+        {
+            "path": "Scripts/Scripts/LocalizationModule.cs"
+        },
+        {
+            "path": "Scripts/Scripts/LocalizationExtension.cs"
+        }
+    ],
+    "dependencies": [
+        {
+            "modName": "CoreLib",
+            "required": true
+        }
+    ]
+}

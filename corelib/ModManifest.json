@@ -1,0 +1,114 @@
+{
+    "guid": "c4f0016ab9b64c70b386c439b6eac3ab",
+    "name": "CoreLib",
+    "skipSafetyChecks": true,
+    "disableScripts": false,
+    "accessesExtraAssemblies": true,
+    "disableHarmonyPatching": false,
+    "requiredOn": 0,
+    "files": [
+        {
+            "path": "Scripts/Scripts/Util/ToggleSwitch.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/SubmodulesData.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/State.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Players.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Logger.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/GameManagers.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Extensions/TopologicalSortExtension.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Extensions/ReflectionUtil.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Extensions/ObjectDataExtensions.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Extensions/ModExtensions.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Extensions/MathExtensions.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Extensions/GeneralExtensions.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Extensions/ECSExtensions.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Extensions/CollectionUtils.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Debug.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Data/IdBindConfigFile.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Data/IdBind.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Data/ConfigFile/TypeConverter.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Data/ConfigFile/TomlTypeConverter.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Data/ConfigFile/SettingChangedEventArgs.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Data/ConfigFile/ConfigWrapper.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Data/ConfigFile/ConfigFile.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Data/ConfigFile/ConfigEntryBase.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Data/ConfigFile/ConfigDescription.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Data/ConfigFile/ConfigDefinition.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Data/ConfigFile/AcceptableValueRange.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Data/ConfigFile/AcceptableValueList.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Util/Data/ConfigFile/AcceptableValueBase.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Submodules/SubmoduleHandler.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Submodules/GameVersion.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Submodules/BaseSubmodule.cs"
+        },
+        {
+            "path": "Scripts/Scripts/CoreLibMod.cs"
+        },
+        {
+            "path": "Bundles/CoreLib_Windows.assetbundle"
+        },
+        {
+            "path": "Bundles/CoreLib_Linux.assetbundle"
+        }
+    ],
+    "dependencies": []
+}

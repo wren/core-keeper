@@ -1,0 +1,36 @@
+{
+    "guid": "fae0277d7a6a451fbefddc846e76c956",
+    "name": "CoreLib.RewiredExtension",
+    "skipSafetyChecks": false,
+    "disableScripts": false,
+    "accessesExtraAssemblies": true,
+    "disableHarmonyPatching": false,
+    "requiredOn": 0,
+    "files": [
+        {
+            "path": "Scripts/Scripts/RewiredExtensionModule.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Patches/Rewired_Patch.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Patches/Rewired_Init_Patch.cs"
+        },
+        {
+            "path": "Scripts/Scripts/KeyBindData.cs"
+        },
+        {
+            "path": "Scripts/RewiredExtensions.cs"
+        }
+    ],
+    "dependencies": [
+        {
+            "modName": "CoreLib",
+            "required": true
+        },
+        {
+            "modName": "CoreLib.Localization",
+            "required": true
+        }
+    ]
+}
