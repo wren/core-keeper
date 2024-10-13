@@ -49,10 +49,10 @@ git pull origin main
 1. Download these files (either via git, or via zip)
 2. Copy the contents of `mods` to `~/.local/share/Steam/steamapps/common/Core\ Keeper/CoreKeeper_Data/StreamingAssets/Mods`
    Note: you might have to create the `Mods` folder
-3. Copy the contents of `config` to `~/.config/unity3d/Pugstorm/Core\ Keeper/Steam/{some number}/mods`
+3. Copy the contents of `config` to `~/.config/unity3d/Pugstorm/Core\ Keeper/Steam/{steam id}/mods`
 
-   Notes: The `{some number}` varies depending on your Steam ID, but just use the only directory in there that is a
-   string of numbers. And you might have to create the `mods` folder
+   Notes: The `{steam id}` varies depending on your Steam ID. Just use the only directory in there that is a
+   string of numbers. Also, you might have to create the `mods` folder
 
 4. Start the game and confirm that the main menu says something like (4 mods loaded)
 
@@ -69,5 +69,8 @@ TODO: Is there a nice way to make use of `git pull` for this on Windows?
 
    Note: you might have to create the `Mods` folder
 
-3. Copy the contents of `config` to `TODO: where does this go on Windows?`
+3. Copy the contents of `config` to `C:/Users/%userprofile%/AppData/LocalLow/Pugstorm/Core Keeper/Steam/{steam id}/mods`
+
+   Note: you might have to create the `mods` folder
+
 4. Start the game and confirm that the main menu says something like (4 mods loaded)
