@@ -69,8 +69,9 @@ TODO: Is there a nice way to make use of `git pull` for this on Windows?
 
    Note: you might have to create the `Mods` folder
 
-3. Copy the contents of `config` to `C:/Users/%userprofile%/AppData/LocalLow/Pugstorm/Core Keeper/Steam/{steam id}/mods`
+3. Copy the contents of `config` to `C:\Users\%userprofile%\AppData\LocalLow\Pugstorm\Core Keeper\Steam\{steam id}\mods`
 
-   Note: you might have to create the `mods` folder
+   Notes: The `{steam id}` varies depending on your Steam ID. Just use the only directory in there that is a
+   string of numbers. Also, you might have to create the `mods` folder
 
 4. Start the game and confirm that the main menu says something like (4 mods loaded)
