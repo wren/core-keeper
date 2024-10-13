@@ -62,6 +62,21 @@ git pull origin main
 
 TODO: Is there a nice way to make use of `git pull` for this on Windows?
 
+```sh
+# Or wherever you want to keep your repos
+git clone https://github.com/wren/core-keeper.git D:\repos\core-keeper
+cd D:\repos\core-keeper
+robocopy mods "D:\SteamLibrary\steamapps\common\Core Keeper\CoreKeeper_Data\StreamingAssets\Mods" /mir
+robocopy config "%userprofile%\AppData\LocalLow\Pugstorm\Core Keeper\Steam\{steam id}\mods" /mir
+```
+
+Then, whenever there's an update:
+
+```sh
+cd D:\repos\core-keeper
+git pull
+```
+
 #### Manual Way
 
 1. Download these files (either via git, or via zip)
@@ -69,7 +84,7 @@ TODO: Is there a nice way to make use of `git pull` for this on Windows?
 
    Note: you might have to create the `Mods` folder
 
-3. Copy the contents of `config` to `C:\Users\%userprofile%\AppData\LocalLow\Pugstorm\Core Keeper\Steam\{steam id}\mods`
+3. Copy the contents of `config` to `%userprofile%\AppData\LocalLow\Pugstorm\Core Keeper\Steam\{steam id}\mods`
 
    Notes: The `{steam id}` varies depending on your Steam ID. Just use the only directory in there that is a
    string of numbers. Also, you might have to create the `mods` folder
