@@ -65,7 +65,7 @@ TODO: Is there a nice way to make use of `git pull` for this on Windows?
 #### Manual Way
 
 1. Download these files (either via git, or via zip)
-2. Copy the contents of `mods` to `...\steamapps\common\Core Keeper\CoreKeeper_Data\StreamingAssets/Mods`
+2. Copy the contents of `mods` to `C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\StreamingAssets\Mods`
 
    Note: you might have to create the `Mods` folder
 
