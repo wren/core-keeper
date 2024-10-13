@@ -20,13 +20,13 @@ Either way, once the files are on your system, see below for where to put them (
 For the Steam Deck, you can copy the files via a flash drive, but that can very tedious. And you'll have to redo the
 process every time the config is updated.
 
+#### Auto-magic way
+
 If you're comfortable with using a terminal and git, I recommend setting up your Steamdeck for SSH, then just running
 `git pull` any time you need to update.
 
-(This)[https://shendrick.net/Gaming/2022/05/30/sshonsteamdeck.html] is a great walkthrough of how to enable SSH on your
+[This](https://shendrick.net/Gaming/2022/05/30/sshonsteamdeck.html) is a great walkthrough of how to enable SSH on your
 deck. Once you've done that, you can run a few commands to finish the setup:
-
-#### Auto-magic way
 
 ```sh
 ssh deck@steamdeck # or however you set it up
@@ -48,13 +48,11 @@ git pull origin main
 
 1. Download these files (either via git, or via zip)
 2. Copy the contents of `mods` to `~/.local/share/Steam/steamapps/common/Core\ Keeper/CoreKeeper_Data/StreamingAssets/Mods`
-
-- Note: you might have to create the `Mods` folder
-
+   Note: you might have to create the `Mods` folder
 3. Copy the contents of `config` to `~/.config/unity3d/Pugstorm/Core\ Keeper/Steam/{some number}/mods`
 
-- Note: the `{some number}` varies depending on your Steam ID, but just use the only directory in there that is a string of numbers
-- Note: you might have to create the `mods` folder
+   Notes: The `{some number}` varies depending on your Steam ID, but just use the only directory in there that is a
+   string of numbers. And you might have to create the `mods` folder
 
 4. Start the game and confirm that the main menu says something like (4 mods loaded)
 
@@ -69,7 +67,7 @@ TODO: Is there a nice way to make use of `git pull` for this on Windows?
 1. Download these files (either via git, or via zip)
 2. Copy the contents of `mods` to `...\steamapps\common\Core Keeper\CoreKeeper_Data\StreamingAssets/Mods`
 
-- Note: you might have to create the `Mods` folder
+   Note: you might have to create the `Mods` folder
 
 3. Copy the contents of `config` to `TODO: where does this go on Windows?`
 4. Start the game and confirm that the main menu says something like (4 mods loaded)
