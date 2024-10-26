@@ -1,0 +1,8 @@
+{
+  "mod": "HealthBars",
+  "section": "Config",
+  "description": "",
+  "key": "RenderOverObjects",
+  "defaultValue": false,
+  "value": true
+}

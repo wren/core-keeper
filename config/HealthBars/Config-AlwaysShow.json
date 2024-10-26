@@ -1,0 +1,8 @@
+{
+    "mod": "HealthBars",
+    "section": "Config",
+    "description": "",
+    "key": "AlwaysShow",
+    "defaultValue": false,
+    "value": false
+}
