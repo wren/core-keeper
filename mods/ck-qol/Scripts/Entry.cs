@@ -28,6 +28,7 @@ namespace CK_QOL
 		private readonly List<IFeature> _features = new();
 
 		internal static LoadedMod ModInfo { get; private set; }
+		internal static AssetBundle AssetBundle => ModInfo.AssetBundles.First();
 		internal static Player RewiredPlayer { get; private set; }
 
 		public void EarlyInit()
