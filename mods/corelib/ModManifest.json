@@ -71,6 +71,9 @@
             "path": "Scripts/Scripts/Util/Data/ConfigFile/ConfigWrapper.cs"
         },
         {
+            "path": "Scripts/Scripts/Util/Data/ConfigFile/ConfigScope.cs"
+        },
+        {
             "path": "Scripts/Scripts/Util/Data/ConfigFile/ConfigFile.cs"
         },
         {

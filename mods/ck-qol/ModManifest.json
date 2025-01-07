@@ -113,6 +113,9 @@
             "path": "Scripts/Core/ModLogger.cs"
         },
         {
+            "path": "Scripts/Core/Helpers/TransformHelpers.cs"
+        },
+        {
             "path": "Scripts/Core/Helpers/TextHelper.cs"
         },
         {
@@ -128,7 +131,7 @@
             "path": "Scripts/Core/Helpers/ChestHelper.cs"
         },
         {
-            "path": "Scripts/Core/Features/QuickActionFeatureBase.cs"
+            "path": "Scripts/Core/Helpers/AssetHelper.cs"
         },
         {
             "path": "Scripts/Core/Features/IKeyBindableFeature.cs"
@@ -146,13 +149,13 @@
             "path": "Scripts/Core/Config/ConfigBase.cs"
         },
         {
-            "path": "Scripts/Generated/ItemPickUpNotificationSystem__System_16760277450.g.cs"
+            "path": "Scripts/Generated/ItemPickUpNotificationSystem__System_11431407060.g.cs"
         },
         {
-            "path": "Scripts/Generated/NoDeathPenaltySystem__System_14410053500.g.cs"
+            "path": "Scripts/Generated/NoDeathPenaltySystem__System_12575689330.g.cs"
         },
         {
-            "path": "Scripts/Generated/NoEquipmentDurabilityLossSystem__System_18387612860.g.cs"
+            "path": "Scripts/Generated/NoEquipmentDurabilityLossSystem__System_10898098930.g.cs"
         },
         {
             "path": "Bundles/CK-QOL_Windows.assetbundle"
@@ -173,6 +176,10 @@
         {
             "modName": "CoreLib.RewiredExtension",
             "required": true
+        },
+        {
+            "modName": "CK-QOL.ConfigUI",
+            "required": false
         }
     ]
 }
