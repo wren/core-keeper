@@ -1,0 +1,63 @@
+{
+    "guid": "b1d8ef3a1def4e5fb12f2171f3ea9797",
+    "name": "HealthBars",
+    "skipSafetyChecks": false,
+    "disableScripts": false,
+    "accessesExtraAssemblies": true,
+    "disableHarmonyPatching": false,
+    "requiredOn": 1,
+    "files": [
+        {
+            "path": "Scripts/Scripts/Utils.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Patches/MemoryManager_Patch.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Patches/EntityMonoBehaviour_Patch.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Options.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Main.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Bars/Types/PlayerResourceBar.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Bars/Types/OreBoulderResourceBar.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Bars/Types/MinionDurationResourceBar.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Bars/Types/HealthAndArmorResourceBar.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Bars/Types/DualResourceBar.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Bars/Types/CrystalSnailResourceBar.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Bars/ResourceBarType.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Bars/ResourceBarHandler.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Bars/ResourceBarBase.cs"
+        },
+        {
+            "path": "Scripts/Scripts/Bars/Assignment/ResourceBarConverter.cs"
+        },
+        {
+            "path": "Bundles/HealthBars_Windows.assetbundle"
+        },
+        {
+            "path": "Bundles/HealthBars_Linux.assetbundle"
+        }
+    ],
+    "dependencies": []
+}
