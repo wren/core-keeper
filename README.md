@@ -60,8 +60,6 @@ git pull origin main
 
 #### Auto-magic way
 
-TODO: Is there a nice way to make use of `git pull` for this on Windows?
-
 ```sh
 # Or wherever you want to keep your repos
 git clone https://github.com/wren/core-keeper.git D:\repos\core-keeper
