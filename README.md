@@ -88,3 +88,21 @@ git pull
    string of numbers. Also, you might have to create the `mods` folder
 
 4. Start the game and confirm that the main menu says something like (4 mods loaded)
+
+### Shared Server
+
+This section is here to remind myself where these files go on the shared server. Also, this can be used if someone other than myself needs to update the server.
+
+1. Download these files (either via git, or via zip)
+2. Connect via ftp to the server (not sftp, as the server doesn't support it)
+
+   > NOTE: You can find the credentials in the G-Portal admin panel
+
+3. Upload the contents of each directory below
+
+   - Contents of `mods` goes to `/CoreKeeperServer_Data/StreamingAssets/Mods`
+   - Contents of `config` goes to `/DedicatedServer/mods`
+
+   > NOTE:
+   > It's ok to delete all server contents in these directories, and overwrite
+   > with the files from the repo (there's no risk to the save files or anything)
