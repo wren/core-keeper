@@ -1,0 +1,29 @@
+{
+    "guid": "1cb378c1b2124a30b8526121e82e59ca",
+    "name": "Exp Multiplier",
+    "skipSafetyChecks": false,
+    "disableScripts": false,
+    "accessesExtraAssemblies": true,
+    "disableHarmonyPatching": false,
+    "requiredOn": 3,
+    "files": [
+        {
+            "path": "Scripts/ExpMultiplier.cs"
+        },
+        {
+            "path": "Scripts/Generated/ExpMultiplier__System_448009040.g.cs"
+        },
+        {
+            "path": "Bundles/Exp Multiplier_Windows.assetbundle"
+        },
+        {
+            "path": "Bundles/Exp Multiplier_Linux.assetbundle"
+        }
+    ],
+    "dependencies": [
+        {
+            "modName": "CoreLib",
+            "required": true
+        }
+    ]
+}
