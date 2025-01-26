@@ -48,11 +48,11 @@ git pull origin main
 
 1. Download these files (either via git, or via zip)
 2. Copy the contents of `mods` to `~/.local/share/Steam/steamapps/common/Core\ Keeper/CoreKeeper_Data/StreamingAssets/Mods`
-   Note: you might have to create the `Mods` folder
+   > NOTE: you might have to create the `Mods` folder
 3. Copy the contents of `config` to `~/.config/unity3d/Pugstorm/Core\ Keeper/Steam/{steam id}/mods`
 
-   Notes: The `{steam id}` varies depending on your Steam ID. Just use the only directory in there that is a
-   string of numbers. Also, you might have to create the `mods` folder
+   > NOTE: The `{steam id}` varies depending on your Steam ID. Just use the only directory in there that is a
+   > string of numbers. Also, you might have to create the `mods` folder
 
 4. Start the game and confirm that the main menu says something like (4 mods loaded)
 
@@ -80,12 +80,12 @@ git pull
 1. Download these files (either via git, or via zip)
 2. Copy the contents of `mods` to `C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\StreamingAssets\Mods`
 
-   Note: you might have to create the `Mods` folder
+   > NOTE: you might have to create the `Mods` folder
 
 3. Copy the contents of `config` to `%userprofile%\AppData\LocalLow\Pugstorm\Core Keeper\Steam\{steam id}\mods`
 
-   Notes: The `{steam id}` varies depending on your Steam ID. Just use the only directory in there that is a
-   string of numbers. Also, you might have to create the `mods` folder
+   > NOTE: The `{steam id}` varies depending on your Steam ID. Just use the only directory in there that is a
+   > string of numbers. Also, you might have to create the `mods` folder
 
 4. Start the game and confirm that the main menu says something like (4 mods loaded)
 
